@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header"
 
 const Home = () => {
   return (
@@ -7,9 +8,13 @@ const Home = () => {
         <title>Hulu 2.0</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      Let's build Hulu Clone 2.0
+     
       {/* Header  */}
+      <Header/>
+
       {/* NavBar */}
+
+      
       {/* Results */}
     </div>
   );
