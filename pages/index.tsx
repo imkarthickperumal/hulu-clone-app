@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header"
+import Nav from "../components/Nav"
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <Header/>
 
       {/* NavBar */}
-
+      <Nav/>
       
       {/* Results */}
     </div>
